@@ -1,0 +1,206 @@
+ JSON
+
+ 1. Создать внешний репозиторий c названием JSON. 
+	На сайте github.com создать репозиторий и скопировать ссылку с помощью веб-интерфейса
+
+ 2. Клонировать репозиторий JSON на локальный компьютер 
+	git clone https://github.com/Andrew996qa/JSON.git
+
+ 3. Внутри локального JSON создать файл “new.json” 
+	cd JSON 
+	cat > new.json
+
+ 4. Добавить файл под гит 
+	git add new.json
+
+ 5. Закоммитить файл 
+	git commit -m "names1"
+
+ 6. Отправить файл на внешний GitHub репозиторий 
+	git push
+
+ 7. Отредактировать содержание файла “new.json” - написать информацию о себе 
+(ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+
+ 	cat >> new.json
+ 	Andrew
+ 	26
+ 	0
+	1000
+
+ 8. Отправить изменения на внешний репозиторий 
+	git status
+	git add new.json
+	git commit -a -m "names2"
+	git push
+
+ 9. Создать файл preferences.json
+	cat > preferences.json
+
+ 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, стрaна которую хотели бы посетить) в формате JSON.
+  	1) Films: The Martian, Deepwater Horizon, Lock, Stock and Two Smoking Barrels
+  	2) Series: Alf, The Witcher, Life with Louie
+  	3) Eat: Meat
+  	4) Season: Summer
+  	5) County: USA
+
+ 11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+  	cat > skills.json
+  	Git
+  	Postman
+ 	DevTools Google
+  	Theory testing
+
+ 12. Отправить сразу 2 файла на внешний репозиторий
+	git status
+	git add .
+	git commit -m "names3"
+	git push
+
+ 13. На веб интерфейсе создать файл bug_report.json (Add New file)
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе (Commit changes)
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 17. Синхронизировать внешний и локальный репозиторий JSON (в соотв. ветке выпоннять)
+	git fetch
+	git pull
+
+
+
+ XML
+ 18. Создать внешний репозиторий c названием XML
+	На сайте github.com создать репозиторий и скопировать ссылку с помощью веб-интерфейса
+
+ 19. Клонировать репозиторий XML на локальный компьютер 
+	git clone https://github.com/Andrew996qa/XML.git
+
+ 20. Внутри локального XML создать файл “new.xml” 
+	cat > new.xml
+
+ 21. Добавить файл под гит 
+	git add new.xml
+	
+ 22. Закоммитить файл 
+	git commit -m "namex1"
+
+ 23. Отправить файл на внешний GitHub репозиторий 
+	git push
+
+ 24. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ 	cat >> new.xml
+	Andrew
+ 	26
+ 	0
+	1000
+
+ 25. Отправить изменения на внешний репозиторий 
+	git status
+	git commit -a -m "namex2"
+	git push
+
+ 26. Создать файл preferences.xml 
+	cat > preferences.xml
+
+ 27. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. -....
+	1) Films: The Martian, Deepwater Horizon, Lock, Stock and Two Smoking Barrels
+  	2) Series: Alf, The Witcher, Life with Louie
+  	3) Eat: Meat
+  	4) Season: Summer
+  	5) County: USA
+
+ 28. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+	cat > skills.xml
+ 	Git
+  	Postman
+ 	DevTools Google
+  	Theory testing
+
+ 29. Сделать коммит в одну строку 
+	git commit -a -m "namex3"
+
+ 30. Отправить сразу 2 файла на внешний репозиторий
+
+	git status
+	git commit -m "namex3"     
+	git push
+
+ 31. На веб интерфейсе создать файл bug_report.xml.
+ 32. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+ 33. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+ 34. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 35. Синхронизировать внешний и локальный репозиторий XML (в соотв. ветке)
+	git fetch
+	git pull
+
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT
+	На сайте github.com создать репозиторий и скопировать ссылку с помощью веб-интерфейса
+
+ 2. Клонировать репозиторий TXT на локальный компьютер 
+	git clone https://github.com/Andrew996qa/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt” 
+	cat > new.txt
+
+ 4. Добавить файл под гит 
+	git add new.txt
+
+ 5. Закоммитить файл 
+	git commit -m "names1"
+
+ 6. Отправить файл на внешний GitHub репозиторий 
+	git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+	cat >> new.txt
+	Andrew
+ 	26
+ 	0
+	1000
+
+ 8. Отправить изменения на внешний репозиторий 
+	git commit -a -m "names2"
+	git push
+
+ 9. Создать файл preferences.txt 
+	cat > preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+ 	1) Films: The Martian, Deepwater Horizon, Lock, Stock and Two Smoking Barrels
+  	2) Series: Alf, The Witcher, Life with Louie
+  	3) Eat: Meat
+  	4) Season: Summer
+  	5) County: USA
+
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+	cat > skills.txt
+ 	Git
+  	Postman
+ 	DevTools Google
+  	Theory testing
+
+ 12. Сделать коммит в одну строку 
+	git add . ( или git add preferences.txt skills.txt)
+
+ 13. Отправить сразу 2 файла на внешний репозиторий 
+	git status
+	git commit -m "names3"
+	git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt.
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ 18. Синхронизировать внешний и локальный репозиторий TXT (в соотв. ветке)
+	git fetch
+	git pull 
+
+
+
+
+Comments:
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+Если были изменения на удаленном реп., тогда локально выполнить команду - Git pull  (чтобы синхронизировать их)
+Если локально изменил, тогда комитнуть - git commit -a -m "..." ; pit push
